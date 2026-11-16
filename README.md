@@ -1,0 +1,2 @@
+# network-manager-config-connectivity-debian_1.51.0-1ubuntu2.8_all.deb
+n gestionnaire de paquets Debian fonctionnel avec :      21 paquets pré-charges (apt, dpkg, systemd, git, nginx, etc.) et le spécial paquet que vous avez mentionné : network-manager-config-connectivity-debian_1.46.0-1ubuntu2.8_all.deb     4 onglets : Paquets (catalogue avec recherche/filtres), Terminal (sortie temps réel style macOS),
