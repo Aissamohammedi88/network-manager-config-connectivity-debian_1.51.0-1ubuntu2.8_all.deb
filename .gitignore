@@ -1,18 +1,52 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# ==========================================
+# 🐧 COUSIN DEBIAN MANAGER — .gitignore
+# ==========================================
 
-# Other files and folders
-.settings/
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+.venv/
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# --- Système d'exploitation / IDE ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# --- Fichiers de l'application ---
+# On ignore l'archive générée (elle doit être dans les "Releases", pas dans le code)
+*.tar.gz
+*.zip
+*.deb
+
+# On ignore le fichier de données du livre d'or (données locales)
+tributes.json
+# Mais on garde un modèle vide pour les nouveaux utilisateurs
+!tributes.example.json
+
+# --- Logs & temporaires ---
+*.log
+server.out
+nohup.out
